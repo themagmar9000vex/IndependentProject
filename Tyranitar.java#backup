@@ -1,0 +1,32 @@
+/**
+ * The pokemon Tyranitar.
+ *
+ * @author Kush Khanna.
+ * @version 1.0
+ */
+public class Tyranitar extends Pokemon
+{
+
+    public Tyranitar(){
+        super("Tyranitar", Types.ROCK, Types.DARK, 350,300,300,260,290,150,"Earthquake", "Crunch", "Stone Edge", "Screech");
+    }   
+    
+    public int move1(Pokemon opp){  
+        setCurrentMoveType(Types.GROUND);
+        return 100;
+    }
+    public int move2(Pokemon opp){  
+        setCurrentMoveType(Types.DARK);
+        return 80;
+    }
+    public int move3(Pokemon opp){
+        setCurrentMoveType(Types.ROCK);
+        return 90;   
+    }
+    public int move4(Pokemon opp){
+        opp.setStatus(StatusEffect.PARALYSIS);
+        setCurrentMoveType(Types.NORMAL);
+        return 0;
+    }     
+    
+}

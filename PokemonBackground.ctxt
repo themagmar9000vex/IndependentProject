@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=PokemonBackground
+comment0.text=\r\n\ Represents\ the\ background\ that\ is\ being\ displayed,\ and\ the\ pokemon\ sprites\ too.\r\n\ \r\n\ @author\ Kush\ Khanna\r\n\ @version\ 1.0\r\n
+comment1.params=back\ front
+comment1.target=PokemonBackground(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructs\ a\ background\ with\ the\ given\ pokemon\ names.\r\n\ @param\ back\ the\ pokemon\ showing\ its\ back.\r\n\ @param\ front\ the\ pokemon\ showing\ its\ front.\r\n
+comment2.params=g
+comment2.target=void\ paintComponent(java.awt.Graphics)
+comment2.text=\r\n\ Overrides\ the\ paintComponent\ method\ to\ draw\ the\ images\ of\ the\ background\ and\ the\ pokemon.\r\n\ @param\ g\ the\ graphics\ object.\r\n
+numComments=3

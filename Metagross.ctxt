@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Metagross
+comment0.text=\r\n\ The\ pokemon\ Metagross.\r\n\r\n\ @author\ Kush\ Khanna.\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Metagross()
+comment1.text=\r\n\ Constructs\ a\ Metagross\ with\ its\ base\ stats\ and\ moves.\r\n
+comment2.params=opp
+comment2.target=int\ move1(Pokemon)
+comment2.text=\r\n\ Meteor\ Mash\ -\ Physical\ steel\ type\ move\ that\ has\ 100\ power.\r\n\ @param\ opp\ the\ enemy\ pokemon\r\n\ @return\ the\ power\ of\ the\ move\r\n
+comment3.params=opp
+comment3.target=int\ move2(Pokemon)
+comment3.text=\r\n\ Shadow\ Ball\ -\ Special\ ghost\ type\ move\ that\ has\ 90\ power.\r\n\ @param\ opp\ the\ enemy\ pokemon\r\n\ @return\ the\ power\ of\ the\ move\r\n
+comment4.params=opp
+comment4.target=int\ move3(Pokemon)
+comment4.text=\r\n\ Psychic\ -\ Special\ psychic\ type\ move\ that\ has\ 90\ power.\ Has\ a\ chance\ of\ confusing\ the\ enemy.\r\n\ @param\ opp\ the\ enemy\ pokemon\r\n\ @return\ the\ power\ of\ the\ move\r\n
+comment5.params=opp
+comment5.target=int\ move4(Pokemon)
+comment5.text=\r\n\ Swagger\ -\ Status\ normal\ \ \ type\ move\ that\ raises\ the\ enemies\ attack,\ but\ also\ confuses\ them.\r\n\ @param\ opp\ the\ enemy\ pokemon\r\n\ @return\ the\ power\ of\ the\ move\r\n
+numComments=6

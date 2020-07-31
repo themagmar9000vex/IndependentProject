@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=UserMoveSelector
+comment0.text=\r\n\ Represents\ the\ selected\ move\ of\ the\ user\ to\ be\ used\ in\ Click\ Listener.\r\n\r\n\ @author\ Kush\ Khanna\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=int\ getSelectedMove()
+comment1.text=\r\n\ Returns\ the\ selected\ move.\r\n\ @return\ the\ selected\ move.\r\n
+comment2.params=x
+comment2.target=void\ setSelectedMove(int)
+comment2.text=\r\n\ Sets\ the\ selected\ move.\r\n\ @param\ x\ sets\ the\ selected\ move\ to\ this\ value.\r\n
+numComments=3

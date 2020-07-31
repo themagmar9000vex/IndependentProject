@@ -1,0 +1,33 @@
+/**
+ * The pokemon Arceus.
+ *
+ * @author Kush Khanna.
+ * @version 1.0
+ */
+public class Arceus extends Pokemon
+{
+
+    public Arceus(){
+        super("Arceus", Types.NORMAL, Types.NONE, 400,290,290,290,290,290,"Calm Mind", "Judgement", "Ice Beam", "Iron Tail");
+    }   
+    
+    public int move1(Pokemon opp){   
+        raiseSpeAtt();
+        raiseSpeDef();
+        setCurrentMoveType(Types.PSYCHIC);
+        return 0;
+    }
+    public int move2(Pokemon opp){   
+        setCurrentMoveType(Types.NORMAL);
+        return -100;
+    }
+    public int move3(Pokemon opp){
+        setCurrentMoveType(Types.ICE);
+        return -90;   
+    }
+    public int move4(Pokemon opp){
+        setCurrentMoveType(Types.STEEL);
+        return 0;
+    }     
+    
+}

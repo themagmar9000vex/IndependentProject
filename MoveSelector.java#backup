@@ -1,0 +1,14 @@
+
+/**
+ * Represents the selected move of the user to be used in Click Listener.
+ *
+ * @author Kush Khanna
+ * @version 1.0
+ */
+public class MoveSelector
+{
+    private static int selectedMove;
+    
+    public static int getSelectedMove(){return selectedMove;}
+    public static void setSelectedMove(int x){selectedMove = x;}
+}

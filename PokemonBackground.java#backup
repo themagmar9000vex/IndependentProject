@@ -1,0 +1,30 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.image.*;
+import javax.imageio.ImageIO;
+import java.io.File;
+
+public class PokemonBackground extends JPanel{
+
+    private BufferedImage background;
+    private BufferedImage front;
+    private BufferedImage back;
+    
+    public PokemonBackground(String back, String front){
+        try{
+        background = ImageIO.read(new File("Background.png"));
+        this.front = ImageIO.read(new File(front+"Front.png"));
+        this.back = ImageIO.read(new File(back+"Back.png"));
+        } catch (Exception ex){
+            
+        }
+        
+    }
+    
+    
+    public void paintComponent(Graphics g){
+        g.drawImage(background,0,0,this);
+        g.drawImage(front,559,85,this); 
+        g.drawImage(back,127,219,this);
+    }
+}

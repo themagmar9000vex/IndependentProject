@@ -1,0 +1,33 @@
+import javax.swing.JLabel;
+import java.awt.Color;
+/**
+ * Displays and redisplays the health of the given pokemon.
+ *
+ * @author Kush Khanna
+ * @version 1,0
+ */
+public class Health extends JLabel
+{
+   
+    private int displayedHealth;
+    private Pokemon pok;
+    
+    public Health(Pokemon pok){    
+        this.pok = pok;
+        displayedHealth = pok.getHP()[0];
+        setForeground(Color.WHITE);
+    }
+    
+    public int getDisplayedHealth(){
+        return displayedHealth;
+    }
+    
+    public void reCalculate(){
+        displayedHealth =  pok.getHP()[0];
+        if(displayedHealth <= 0){displayedHealth = 0;}
+        if(displayedHealth / pok.getHP()[1] > 50){setForeground(Color.GREEN);}
+        else if(displayedHealth / pok.getHP()[1] > 25){setForeground(Color.YELLOW);}
+        else{setForeground(Color.GREEN);}
+        repaint();
+    }
+}

@@ -1,0 +1,31 @@
+/**
+ * The pokemon Garchomp.
+ *
+ * @author Kush Khanna.
+ * @version 1.0
+ */
+public class Garchomp extends Pokemon
+{
+
+    public Garchomp(){
+        super("Garchomp", Types.DRAGON, Types.GROUND, 350,310,220,200,220,260,"Dragon Claw", "Earthquake", "Slash", "Crunch");
+    }   
+    
+    public int move1(Pokemon opp){      
+        setCurrentMoveType(Types.DRAGON);
+        return 90;
+    }
+    public int move2(Pokemon opp){    
+        setCurrentMoveType(Types.GROUND);
+        return 100;
+    }
+    public int move3(Pokemon opp){
+        setCurrentMoveType(Types.NORMAL);
+        return 80;   
+    }
+    public int move4(Pokemon opp){
+        setCurrentMoveType(Types.DARK);
+        return 0;
+    }     
+    
+}

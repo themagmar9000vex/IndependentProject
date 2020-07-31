@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Garchomp
+comment0.text=\r\n\ The\ pokemon\ Garchomp.\r\n\r\n\ @author\ Kush\ Khanna.\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Garchomp()
+comment1.text=\r\n\ Constructs\ a\ Garchomp\ with\ its\ base\ stats\ and\ moves.\r\n
+comment2.params=opp
+comment2.target=int\ move1(Pokemon)
+comment2.text=\r\n\ Dragon\ claw\ -\ Physical\ dragon\ type\ move\ that\ has\ 90\ power.\r\n\ @param\ opp\ the\ enemy\ pokemon\r\n\ @return\ the\ power\ of\ the\ move\r\n
+comment3.params=opp
+comment3.target=int\ move2(Pokemon)
+comment3.text=\r\n\ Earthquake\ -\ Physical\ ground\ type\ move\ that\ has\ 100\ power.\r\n\ @param\ opp\ the\ enemy\ pokemon\r\n\ @return\ the\ power\ of\ the\ move\r\n
+comment4.params=opp
+comment4.target=int\ move3(Pokemon)
+comment4.text=\r\n\ Slash\ -\ Physical\ normal\ type\ move\ that\ has\ 80\ power.\r\n\ @param\ opp\ the\ enemy\ pokemon\r\n\ @return\ the\ power\ of\ the\ move\r\n
+comment5.params=opp
+comment5.target=int\ move4(Pokemon)
+comment5.text=\r\n\ Crunch\ -\ Physical\ dark\ type\ move\ that\ has\ 90\ powre.\r\n\ @param\ opp\ the\ enemy\ pokemon\r\n\ @return\ the\ power\ of\ the\ move\r\n
+numComments=6

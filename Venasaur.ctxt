@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Venasaur
+comment0.text=\r\n\ The\ pokemon\ Venasaur.\r\n\r\n\ @author\ Kush\ Khanna.\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Venasaur()
+comment1.text=\r\n\ Constructs\ a\ Venasaur\ with\ its\ base\ stats\ and\ moves.\r\n
+comment2.params=opp
+comment2.target=int\ move1(Pokemon)
+comment2.text=\r\n\ Sleep\ powder\ -\ Status\ grass\ type\ move\ that\ puts\ the\ enemy\ to\ sleep.\r\n\ @param\ opp\ the\ enemy\ pokemon\r\n\ @return\ the\ power\ of\ the\ move\r\n
+comment3.params=opp
+comment3.target=int\ move2(Pokemon)
+comment3.text=\r\n\ Sludge\ Bomb\ -\ Special\ poison\ type\ move\ that\ has\ 90\ power.\ Has\ a\ chance\ to\ poison.\r\n\ @param\ opp\ the\ enemy\ pokemon\r\n\ @return\ the\ power\ of\ the\ move\r\n
+comment4.params=opp
+comment4.target=int\ move3(Pokemon)
+comment4.text=\r\n\ Energy\ Ball\ -\ Special\ grass\ type\ move\ that\ has\ 90\ power.\r\n\ @param\ opp\ the\ enemy\ pokemon\r\n\ @return\ the\ power\ of\ the\ move\r\n
+comment5.params=opp
+comment5.target=int\ move4(Pokemon)
+comment5.text=\r\n\ Stun\ spore\ -\ Status\ grass\ type\ move\ that\ paralyzes\ the\ enemy.\r\n\ @param\ opp\ the\ enemy\ pokemon\r\n\ @return\ the\ power\ of\ the\ move\r\n
+numComments=6

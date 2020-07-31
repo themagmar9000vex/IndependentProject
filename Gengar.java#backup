@@ -1,0 +1,34 @@
+/**
+ * The pokemon Gengar.
+ *
+ * @author Kush Khanna.
+ * @version 1.0
+ */
+public class Gengar extends Pokemon
+{
+
+    public Gengar(){
+        super("Gengar", Types.GHOST, Types.POISON, 275,180,180,310,200,270,"Shadow Ball", "Sludge Bomb", "Hypnosis", "Confuse Ray");
+    }   
+    
+    public int move1(Pokemon opp){      
+        setCurrentMoveType(Types.GHOST);
+        return -90;
+    }
+    public int move2(Pokemon opp){
+        if(RNG.sideStatus()){opp.setStatus(StatusEffect.POISONED);}        
+        setCurrentMoveType(Types.POISON);
+        return -90;
+    }
+    public int move3(Pokemon opp){
+        opp.setStatus(StatusEffect.SLEEP);
+        setCurrentMoveType(Types.PSYCHIC);
+        return 0;   
+    }
+    public int move4(Pokemon opp){
+        opp.setStatus(StatusEffect.PARALYSIS);
+        setCurrentMoveType(Types.GHOST);
+        return 0;
+    }     
+    
+}
